@@ -1,24 +1,12 @@
-# README
+# How to use
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After cloning, install all dependencies:
+- `bundle && yarn`
 
-Things you may want to cover:
+Create the database and alter it's schema:
+- `rails db:create db:migrate`
 
-* Ruby version
+Run the server:
+- `rails s`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Open your browser to [localhost](http://localhost:3000)
